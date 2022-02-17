@@ -34,43 +34,43 @@ const Navbar = () => {
                     </svg>
                 </div>
             </div>
-            <div id="menu" className="px-5 py-3 flex flex-col fixed top-14 -right-96 overflow-x-hidden z-20 md:hidden mt-4 transistion duration-500 ease-out">
-                <svg xmlns="http://www.w3.org/2000/svg" onClick={closeMenu} class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div id="menu" className="h-full w-2/3 px-5 py-3 border flex flex-col fixed top-14 -right-96 overflow-x-hidden z-20 md:hidden mt-4 transistion duration-500 ease-out">
+                <svg xmlns="http://www.w3.org/2000/svg" onClick={closeMenu} className="h-8 w-8 mb-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
-                <a href="" className="flex flex-row">
+                <a href="" className="flex flex-row py-3 items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                     </svg>
-                    <span>Home</span>
+                    <span className="pl-3">Home</span>
                 </a>
-                <a href="" className="flex flex-row">
+                <a href="" className="flex flex-row py-3 items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
-                    <span>About</span>
+                    <span className="pl-3">About</span>
                 </a>
-                <a href="" className="flex flex-row">
+                <a href="" className="flex flex-row py-3 items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
-                    <span>Sponsors</span>
+                    <span className="pl-3">Sponsors</span>
                 </a>
-                <a href="" className="flex flex-row">
+                <a href="" className="flex flex-row py-3 items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M3 12v3c0 1.657 3.134 3 7 3s7-1.343 7-3v-3c0 1.657-3.134 3-7 3s-7-1.343-7-3z" />
                         <path d="M3 7v3c0 1.657 3.134 3 7 3s7-1.343 7-3V7c0 1.657-3.134 3-7 3S3 8.657 3 7z" />
                         <path d="M17 5c0 1.657-3.134 3-7 3S3 6.657 3 5s3.134-3 7-3 7 1.343 7 3z" />
                     </svg>
-                    <span>Projects</span>
+                    <span className="pl-3">Projects</span>
                 </a>
-                <a href="" className="flex flex-row">
+                <a href="" className="flex flex-row py-3 items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span>Contact</span>
+                    <span className="pl-3">Contact</span>
                   </a>
-                <a href="">Enroll</a>
+                  <a href="" className="px-6 mt-8 py-2 border rounded-3xl cursor-pointer text-center">Enroll</a>
             </div>
         </div>
     )
