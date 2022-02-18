@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="flex flex-row justify-between px-5 py-8 items-center">
+            <div className="flex flex-row justify-between px-5 md:py-8 pt-8 pb-2 items-center">
                 <div className="flex flex-row justify-between items-center">
                     <div className="">
                         <img src={rec} alt="logo" className="w-8"/>
