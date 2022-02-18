@@ -10,7 +10,7 @@ const Navbar = () => {
 
     const closeMenu = () => {
         console.log('menu closed')
-        document.getElementById('menu').style.right = '-24rem'
+        document.getElementById('menu').style.right = '-32rem'
     }
 
     return (
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </svg>
                 </div>
             </div>
-            <div id="menu" className="h-full w-2/3 px-5 py-3 border flex flex-col fixed top-14 -right-96 overflow-x-hidden z-20 md:hidden mt-4 transistion duration-500 ease-out">
+            <div id="menu" className="h-full w-2/3 px-5 py-3 border flex flex-col fixed top-14 -right-[32rem] overflow-x-hidden z-20 md:hidden mt-4 transistion duration-500 ease-out">
                 <svg xmlns="http://www.w3.org/2000/svg" onClick={closeMenu} className="h-8 w-8 mb-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
