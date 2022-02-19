@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="flex flex-row justify-between px-5 md:py-8 pt-8 pb-2 items-center">
+            <div className="flex flex-row justify-between px-5 md:py-8 pt-8 pb-2 items-center border-b">
                 <div className="flex flex-row justify-between items-center">
                     <div className="">
                         <img src={rec} alt="logo" className="w-8"/>
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </svg>
                 </div>
             </div>
-            <div id="menu" className="h-full w-2/3 bg-white px-5 py-3 border flex flex-col fixed top-18 -right-[32rem] overflow-x-hidden z-20 md:hidden mt-4 transistion duration-500 ease-out">
+            <div id="menu" className="h-full w-2/3 bg-white px-5 py-3 border flex flex-col fixed top-14 -right-[32rem] overflow-x-hidden z-20 md:hidden mt-4 transistion duration-500 ease-out">
                 <svg xmlns="http://www.w3.org/2000/svg" onClick={closeMenu} className="h-8 w-8 mb-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
