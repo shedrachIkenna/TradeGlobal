@@ -21,8 +21,8 @@ const Showcase = () => {
                     <p className="text-lightText pt-2 mb-5 text-md md:text-xl">You can search hundreds of jobs online to find the next step in your carrer. With tools for job search, resumes, company reviews and more ...</p>
                 </div>
                 <div className="flex flex-row justify-between">
-                    <input id="email" type="text" className="p-4 w-full focus:outline-none" placeholder="name@youremail.com"/>
-                    <button className="bg-primary p-4 text-white rounded-lg" onClick={handleClick}>Subscribe</button>
+                    <input id="email" type="text" className="p-2 md:pb-3 w-full focus:outline-none" placeholder="name@youremail.com"/>
+                    <button className="bg-primary p-2 md:p-3 text-white rounded-lg" onClick={handleClick}>Subscribe</button>
                 </div>
             </div>
             <div className="md:basis-1/2 grid grid-cols-5 md:mt-0 mt-14 px-5">

@@ -28,7 +28,7 @@ const Navbar = () => {
                     <a href="" className="ml-9 hidden md:inline cursor-pointer">Sponsors</a>
                     <a href="" className="ml-9 hidden md:inline cursor-pointer">Projects</a>
                     <a href="" className="ml-9 hidden md:inline cursor-pointer">Contact</a>
-                    <a href="" className="ml-9 px-8 py-2 border rounded-3xl hidden md:inline cursor-pointer">Enroll</a>
+                    <a href="" className="hover:bg-primary hover:text-white ml-9 px-8 py-2 border rounded-3xl hidden md:inline cursor-pointer">Enroll</a>
                     <svg xmlns="http://www.w3.org/2000/svg" onClick={openMenu} className="h-8 w-8 md:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
