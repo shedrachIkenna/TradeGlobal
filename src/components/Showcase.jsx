@@ -16,8 +16,8 @@ const Showcase = () => {
                     <p className="ml-2 text-lightText text-md md:text-xl">Changing the way you grow your career</p>
                 </div>
                 <div className="mt-6">
-                    <h2 className="text-5xl font-light md:py-4">Opportunities</h2>
-                    <h2 className="leading-tight text-5xl font-light pb-4"><span className="font-semibold">Designed</span> for Real Life</h2>
+                    <h2 className="text-3xl md:text-5xl font-light md:py-4 mb-2 md:mb-0">Opportunities</h2>
+                    <h2 className="leading-tight text-3xl md:text-5xl font-light md:pb-4 pb-2"><span className="font-semibold">Designed</span> for Real Life</h2>
                     <p className="text-lightText pt-2 mb-5 text-md md:text-xl">You can search hundreds of jobs online to find the next step in your carrer. With tools for job search, resumes, company reviews and more ...</p>
                 </div>
                 <div className="flex flex-row justify-between">
